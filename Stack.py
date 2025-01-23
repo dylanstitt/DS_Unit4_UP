@@ -59,5 +59,5 @@ class ArrayStack:
 
     def displayRod(self, name):
         joinStr = ''.join(self.__stack)
-        joinStr +=  '-'*(5-self.__size)
+        joinStr += '-'*(5-self.__size)
         print(f'{" ".join(joinStr)} | {name}')
