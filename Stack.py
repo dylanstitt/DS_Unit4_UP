@@ -56,8 +56,9 @@ class ArrayStack:
         else:
             raise IndexError("Stack is empty")
 
-
+    # Lab Specific
     def displayRod(self, name):
+        '''Displays the towers of the game'''
         joinStr = ''.join(self.__stack)
         joinStr += '-'*(5-self.__size)
         print(f'{" ".join(joinStr)} | {name}')
